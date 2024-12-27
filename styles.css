@@ -1,37 +1,58 @@
-* {
+.home-page {
     background-color: #5e86dd;
 }
 
-h1.home {
+.lasagna-page {
+    background-color: #f09e51;
+}
+
+h1.header {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 50px;
-    background-color: #4668d8;
-    color: blanchedalmond;
     text-align: center;
     text-decoration: underline;
 }
 
-ul.recipes {
+h1.home {
     background-color: #4668d8;
+    color: blanchedalmond;
+}
+
+h1.lasagna {
+    background-color: #ce7247;
+    color: #ffffff;
+}
+
+ul.recipes {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 30px;
     list-style-type: none;
-    border-left: 30px solid #0241ca;
-    padding: 10px 20px
+    padding: 10px 20px;
 }
 
-ul.recipes li {
+ul.home {
+    background-color: #4668d8;
+    border-left: 30px solid #0241ca;
+}
+
+ul.lasagna {
+    background-color: #ce7247;
+    border-left: 30px solid #6d2914;
+    color: #6d2914;
+}
+
+ul.home li {
     background-color: #4668d8;
 }
 
-ul.recipes li a {
+ul.home li a {
     background-color: #4668d8;
     color: #3d3fa5;
 }
 
-ul.recipes li a:hover {
+ul.home li a:hover {
     color: #ffffff;
 }
