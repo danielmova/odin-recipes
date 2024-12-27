@@ -10,6 +10,10 @@
     background-color: #51f059;
 }
 
+.grilledCheese-page {
+    background-color: #f05151;
+}
+
 h1.header {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: bold;
@@ -30,6 +34,11 @@ h1.lasagna {
 
 h1.spaghetti {
     background-color: #3eb944;
+    color: #ffffff;
+}
+
+h1.grilledCheese {
+    background-color: #973030;
     color: #ffffff;
 }
 
@@ -57,6 +66,12 @@ ul.spaghetti {
     background-color: #3eb944;
     border-left: 30px solid #17581f;
     color: #17581f;
+}
+
+ul.grilledCheese {
+    background-color: #973030;
+    border-left: 30px solid #360909;
+    color: #360909;
 }
 
 ul.home li {
@@ -94,6 +109,12 @@ ol.spaghetti {
     color: #17581f;
 }
 
+ol.grilledCheese {
+    background-color: #973030;
+    border-left: 30px solid #360909;
+    color: #360909;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -101,6 +122,12 @@ img {
     width: 400px;
     height: 200px;
     border-radius: 15px;
+}
+
+img.home {
+    border: 10px solid #4668d8;
+    width: 300px;
+    height: 300px;
 }
 
 h3.image-description {
@@ -117,6 +144,12 @@ h3.lasagna {
 
 h3.spaghetti {
     background-color: #2e8f34;
+    color: #ffffff;
+    border-radius: 14px;
+}
+
+h3.grilledCheese {
+    background-color: #8f2828;
     color: #ffffff;
     border-radius: 14px;
 }
@@ -144,6 +177,12 @@ h2.lasagna {
 
 h2.spaghetti {
     background-color: #2e8f34;
+    color: #ffffff;
+    border-radius: 14px;
+}
+
+h2.grilledCheese {
+    background-color: #8f2828;
     color: #ffffff;
     border-radius: 14px;
 }
