@@ -28,7 +28,7 @@ ul.recipes {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     list-style-type: none;
     padding: 10px 20px;
 }
@@ -55,4 +55,62 @@ ul.home li a {
 
 ul.home li a:hover {
     color: #ffffff;
+}
+
+ol.recipes {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    padding: 10px 20px;
+}
+
+ol.lasagna {
+    background-color: #ce7247;
+    border-left: 30px solid #6d2914;
+    color: #6d2914;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+h3.image-description {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h3.lasagna {
+    background-color: #8f3428;
+    color: #ffffff;
+    border-radius: 14px;
+}
+
+p.description {
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+h2.titles {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+h2.lasagna {
+    background-color: #8f3428;
+    color: #ffffff;
+    border-radius: 14px;
 }
